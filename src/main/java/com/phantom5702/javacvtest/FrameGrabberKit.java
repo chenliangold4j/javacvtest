@@ -29,7 +29,7 @@ public abstract class FrameGrabberKit {
 
 //        randomGrabberFFmpegImage("e:/ffmpeg/aa.mp4", "./target", "screenshot", 5);
 
-        randomGrabberFFmpegImage("e:/ffmpeg/ffmpeg.mp4", "./target", "screenshot", 5);
+        randomGrabberFFmpegImage("D:/testmp.mp4", "./target", "screenshot", 5);
 
     }
 
