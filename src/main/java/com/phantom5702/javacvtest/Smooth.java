@@ -21,4 +21,5 @@ public class Smooth {
             imwrite(targetImg, image);
         }
     }
+
 }

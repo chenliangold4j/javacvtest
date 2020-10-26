@@ -1,107 +1,2004 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-Licensed to the Apache Software Foundation (ASF) under one
-or more contributor license agreements.  See the NOTICE file
-distributed with this work for additional information
-regarding copyright ownership.  The ASF licenses this file
-to you under the Apache License, Version 2.0 (the
-"License"); you may not use this file except in compliance
-with the License.  You may obtain a copy of the License at
-
-  http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing,
-software distributed under the License is distributed on an
-"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND, either express or implied.  See the License for the
-specific language governing permissions and limitations
-under the License.
--->
-<project version="4" relativePaths="false"> 
-  <component name="ProjectRootManager" version="2" assert-keyword="true" project-jdk-name="1.8" jdk-15="true"/>  
-  <component name="CodeStyleManager"> 
-    <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true"/>  
-    <option name="CODE_STYLE_SCHEME" value=""/> 
-  </component>  
-  <component name="libraryTable"/>  
-  <component name="CompilerConfiguration"> 
-    <option name="DEFAULT_COMPILER" value="Javac"/>  
-    <option name="CLEAR_OUTPUT_DIRECTORY" value="false"/>  
-    <!--
+<project version="4">
+  <component name="CompilerConfiguration">
     <wildcardResourcePatterns>
-      <entry name="${wildcardResourcePattern}"/>
+      <entry name="!?*.java" />
     </wildcardResourcePatterns>
-    -->  
-    <wildcardResourcePatterns>
-      <entry name="!?*.java"/>
-    </wildcardResourcePatterns>
-  </component>  
-  <component name="JavacSettings"> 
-    <option name="DEBUGGING_INFO" value="true"/>  
-    <option name="GENERATE_NO_WARNINGS" value="false"/>  
-    <option name="DEPRECATION" value="true"/>  
-    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
-    <option name="MAXIMUM_HEAP_SIZE" value="128"/>  
-    <option name="USE_GENERICS_COMPILER" value="false"/> 
-  </component>  
-  <component name="JikesSettings"> 
-    <option name="DEBUGGING_INFO" value="true"/>  
-    <option name="DEPRECATION" value="true"/>  
-    <option name="GENERATE_NO_WARNINGS" value="false"/>  
-    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false"/>  
-    <option name="DO_FULL_DEPENDENCE_CHECK" value="false"/>  
-    <option name="IS_INCREMENTAL_MODE" value="false"/>  
-    <option name="IS_EMACS_ERRORS_MODE" value="true"/>  
-    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
-    <option name="MAXIMUM_HEAP_SIZE" value="128"/> 
-  </component>  
-  <component name="AntConfiguration"> 
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>  
-    <option name="FILTER_TARGETS" value="false"/> 
-  </component>  
-  <component name="JavadocGenerationManager"> 
-    <option name="OUTPUT_DIRECTORY"/>  
-    <option name="OPTION_SCOPE" value="protected"/>  
-    <option name="OPTION_HIERARCHY" value="false"/>  
-    <option name="OPTION_NAVIGATOR" value="false"/>  
-    <option name="OPTION_INDEX" value="false"/>  
-    <option name="OPTION_SEPARATE_INDEX" value="false"/>  
-    <option name="OPTION_USE_1_1" value="false"/>  
-    <option name="OPTION_DOCUMENT_TAG_USE" value="false"/>  
-    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false"/>  
-    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false"/>  
-    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false"/>  
-    <option name="OPTION_DEPRECATED_LIST" value="false"/>  
-    <option name="OTHER_OPTIONS"/>  
-    <option name="HEAP_SIZE"/>  
-    <option name="OPEN_IN_BROWSER" value="false"/> 
-  </component>  
-  <component name="JUnitProjectSettings"> 
-    <option name="TEST_RUNNER" value="UI"/> 
-  </component>  
-  <component name="EntryPointsManager"> 
-    <entry_points/> 
-  </component>  
-  <component name="DataSourceManager"/>  
-  <component name="ExportToHTMLSettings"> 
-    <option name="PRINT_LINE_NUMBERS" value="false"/>  
-    <option name="OPEN_IN_BROWSER" value="false"/>  
-    <option name="OUTPUT_DIRECTORY"/> 
-  </component>  
-  <component name="ImportConfiguration"> 
-    <option name="VENDOR"/>  
-    <option name="RELEASE_TAG"/>  
-    <option name="LOG_MESSAGE"/>  
-    <option name="CHECKOUT_AFTER_IMPORT" value="true"/> 
-  </component>  
-  <component name="ProjectModuleManager"> 
-    <modules> 
-      <!-- module filepath="$$PROJECT_DIR$$/${pom.artifactId}.iml"/ -->  
-      <module filepath="$PROJECT_DIR$/javacvtest.iml"/>
-    </modules> 
-  </component>  
-  <UsedPathMacros> 
-    <!--<macro name="cargo"></macro>--> 
-  </UsedPathMacros> 
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="javacvtest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javacvtest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javacvtest.iml" filepath="$PROJECT_DIR$/javacvtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javacvtest.ipr/.idea/javacvtest.ipr.iml" filepath="$PROJECT_DIR$/javacvtest.ipr/.idea/javacvtest.ipr.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: org.bytedeco:artoolkitplus-platform:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus-platform/2.3.1-1.5.3/artoolkitplus-platform-2.3.1-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus-platform/2.3.1-1.5.3/artoolkitplus-platform-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus-platform/2.3.1-1.5.3/artoolkitplus-platform-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:android-arm64:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:android-arm:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:android-x86:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:android-x86_64:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:linux-arm64:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:linux-armhf:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:linux-ppc64le:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:linux-x86:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:linux-x86_64:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:macosx-x86_64:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:windows-x86:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:artoolkitplus:windows-x86_64:2.3.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/artoolkitplus/2.3.1-1.5.3/artoolkitplus-2.3.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg-platform:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg-platform/4.2.2-1.5.3/ffmpeg-platform-4.2.2-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg-platform/4.2.2-1.5.3/ffmpeg-platform-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg-platform/4.2.2-1.5.3/ffmpeg-platform-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:android-arm64:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:android-arm:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:android-x86:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:android-x86_64:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:linux-arm64:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:linux-armhf:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:linux-ppc64le:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:linux-x86:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:linux-x86_64:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:macosx-x86_64:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:windows-x86:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:ffmpeg:windows-x86_64:4.2.2-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/ffmpeg/4.2.2-1.5.3/ffmpeg-4.2.2-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark-platform:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark-platform/1.07-1.5.3/flandmark-platform-1.07-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark-platform/1.07-1.5.3/flandmark-platform-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark-platform/1.07-1.5.3/flandmark-platform-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:android-arm64:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:android-arm:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:android-x86:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:android-x86_64:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:linux-arm64:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:linux-armhf:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:linux-ppc64le:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:linux-x86:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:linux-x86_64:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:macosx-x86_64:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:windows-x86:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flandmark:windows-x86_64:1.07-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flandmark/1.07-1.5.3/flandmark-1.07-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture-platform:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture-platform/2.13.3.31-1.5.3/flycapture-platform-2.13.3.31-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture-platform/2.13.3.31-1.5.3/flycapture-platform-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture-platform/2.13.3.31-1.5.3/flycapture-platform-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture:linux-arm64:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture:linux-armhf:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture:linux-x86:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture:linux-x86_64:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture:windows-x86:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:flycapture:windows-x86_64:2.13.3.31-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/flycapture/2.13.3.31-1.5.3/flycapture-2.13.3.31-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp-platform:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp-platform/1.5.3/javacpp-platform-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp-platform/1.5.3/javacpp-platform-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp-platform/1.5.3/javacpp-platform-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:android-arm64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:android-arm:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:android-x86:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:android-x86_64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:ios-arm64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-ios-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:ios-x86_64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-ios-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:linux-arm64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:linux-armhf:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:linux-ppc64le:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:linux-x86:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:linux-x86_64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:macosx-x86_64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:windows-x86:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacpp:windows-x86_64:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacpp/1.5.3/javacpp-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacv-platform:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacv-platform/1.5.3/javacv-platform-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacv-platform/1.5.3/javacv-platform-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacv-platform/1.5.3/javacv-platform-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:javacv:1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacv/1.5.3/javacv-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacv/1.5.3/javacv-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/javacv/1.5.3/javacv-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica-platform:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica-platform/1.79.0-1.5.3/leptonica-platform-1.79.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica-platform/1.79.0-1.5.3/leptonica-platform-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica-platform/1.79.0-1.5.3/leptonica-platform-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:android-arm64:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:android-arm:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:android-x86:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:android-x86_64:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:linux-arm64:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:linux-armhf:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:linux-ppc64le:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:linux-x86:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:linux-x86_64:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:macosx-x86_64:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:windows-x86:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:leptonica:windows-x86_64:1.79.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/leptonica/1.79.0-1.5.3/leptonica-1.79.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394-platform:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394-platform/2.2.6-1.5.3/libdc1394-platform-2.2.6-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394-platform/2.2.6-1.5.3/libdc1394-platform-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394-platform/2.2.6-1.5.3/libdc1394-platform-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:linux-arm64:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:linux-armhf:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:linux-ppc64le:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:linux-x86:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:linux-x86_64:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:macosx-x86_64:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:windows-x86:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libdc1394:windows-x86_64:2.2.6-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libdc1394/2.2.6-1.5.3/libdc1394-2.2.6-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect-platform:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect-platform/0.5.7-1.5.3/libfreenect-platform-0.5.7-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect-platform/0.5.7-1.5.3/libfreenect-platform-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect-platform/0.5.7-1.5.3/libfreenect-platform-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect2-platform:0.2.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2-platform/0.2.0-1.5.3/libfreenect2-platform-0.2.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2-platform/0.2.0-1.5.3/libfreenect2-platform-0.2.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2-platform/0.2.0-1.5.3/libfreenect2-platform-0.2.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect2:0.2.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect2:linux-x86:0.2.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect2:linux-x86_64:0.2.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect2:macosx-x86_64:0.2.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect2:windows-x86_64:0.2.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect2/0.2.0-1.5.3/libfreenect2-0.2.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:linux-arm64:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:linux-armhf:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:linux-ppc64le:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:linux-x86:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:linux-x86_64:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:macosx-x86_64:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:windows-x86:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:libfreenect:windows-x86_64:0.5.7-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/libfreenect/0.5.7-1.5.3/libfreenect-0.5.7-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense-platform:1.12.4-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense-platform/1.12.4-1.5.3/librealsense-platform-1.12.4-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense-platform/1.12.4-1.5.3/librealsense-platform-1.12.4-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense-platform/1.12.4-1.5.3/librealsense-platform-1.12.4-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense2-platform:2.29.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2-platform/2.29.0-1.5.3/librealsense2-platform-2.29.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2-platform/2.29.0-1.5.3/librealsense2-platform-2.29.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2-platform/2.29.0-1.5.3/librealsense2-platform-2.29.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense2:2.29.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense2:linux-x86:2.29.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense2:linux-x86_64:2.29.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense2:macosx-x86_64:2.29.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense2:windows-x86:2.29.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense2:windows-x86_64:2.29.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense2/2.29.0-1.5.3/librealsense2-2.29.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense:1.12.4-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense:linux-x86:1.12.4-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense:linux-x86_64:1.12.4-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense:macosx-x86_64:1.12.4-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense:windows-x86:1.12.4-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:librealsense:windows-x86_64:1.12.4-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/librealsense/1.12.4-1.5.3/librealsense-1.12.4-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas-platform:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas-platform/0.3.9-1.5.3/openblas-platform-0.3.9-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas-platform/0.3.9-1.5.3/openblas-platform-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas-platform/0.3.9-1.5.3/openblas-platform-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:android-arm64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:android-arm:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:android-x86:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:android-x86_64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:ios-arm64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-ios-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:ios-x86_64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-ios-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:linux-arm64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:linux-armhf:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:linux-ppc64le:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:linux-x86:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:linux-x86_64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:macosx-x86_64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:windows-x86:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:openblas:windows-x86_64:0.3.9-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/openblas/0.3.9-1.5.3/openblas-0.3.9-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv-platform:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv-platform/4.3.0-1.5.3/opencv-platform-4.3.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv-platform/4.3.0-1.5.3/opencv-platform-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv-platform/4.3.0-1.5.3/opencv-platform-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:android-arm64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:android-arm:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:android-x86:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:android-x86_64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:ios-arm64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-ios-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:ios-x86_64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-ios-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:linux-arm64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:linux-armhf:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:linux-ppc64le:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:linux-x86:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:linux-x86_64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:macosx-x86_64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:windows-x86:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:opencv:windows-x86_64:4.3.0-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/opencv/4.3.0-1.5.3/opencv-4.3.0-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract-platform:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract-platform/4.1.1-1.5.3/tesseract-platform-4.1.1-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract-platform/4.1.1-1.5.3/tesseract-platform-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract-platform/4.1.1-1.5.3/tesseract-platform-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:android-arm64:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-android-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:android-arm:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-android-arm.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:android-x86:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-android-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:android-x86_64:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-android-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:linux-arm64:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-linux-arm64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:linux-armhf:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-linux-armhf.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:linux-ppc64le:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-linux-ppc64le.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:linux-x86:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-linux-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:linux-x86_64:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-linux-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:macosx-x86_64:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-macosx-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:windows-x86:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:tesseract:windows-x86_64:4.1.1-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/tesseract/4.1.1-1.5.3/tesseract-4.1.1-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:videoinput-platform:0.200-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput-platform/0.200-1.5.3/videoinput-platform-0.200-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput-platform/0.200-1.5.3/videoinput-platform-0.200-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput-platform/0.200-1.5.3/videoinput-platform-0.200-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:videoinput:0.200-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:videoinput:windows-x86:0.200-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-windows-x86.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bytedeco:videoinput:windows-x86_64:0.200-1.5.3">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-windows-x86_64.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/bytedeco/videoinput/0.200-1.5.3/videoinput-0.200-1.5.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.openjfx:javafx-base:11">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.openjfx:javafx-base:win:11">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-win.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.openjfx:javafx-graphics:11">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.openjfx:javafx-graphics:win:11">
+      <CLASSES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-win.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://D:/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
 </project>
