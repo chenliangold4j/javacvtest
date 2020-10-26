@@ -37,7 +37,6 @@ public class ReceiveStreamTest {
     private static void recordByFrame(FFmpegFrameGrabber grabber, FFmpegFrameRecorder recorder, Boolean status)
             throws Exception, org.bytedeco.javacv.FrameRecorder.Exception {
         try {//建议在线程中使用该方法
-
             //录制1分钟
             long time = System.currentTimeMillis();
 
